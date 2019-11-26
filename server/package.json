@@ -1,19 +1,19 @@
 {
-  "name": "jwtauth",
+  "name": "server",
   "version": "1.0.0",
+  "description": "",
   "main": "app.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "express-jwt": "^5.3.0",
-    "jsonwebtoken": "^7.3.0"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1"
   },
-  "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-plugin-react": "^6.10.3"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
